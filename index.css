@@ -11,23 +11,11 @@
 body {
     background-color: #101423;   
 }
-
-.hero-img-container {
-    background-image: url("../images/background-hero.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-}
-.hero-img {
-    border-radius: 200px 200px 0px 0px;
-   
-}
-
 /* Projekter */
 /* Hide projects by default */
 .project-container {
     display: none;
 }
-
 /* Show projects that match the filter */
 .project-container.show {
     display: block;
