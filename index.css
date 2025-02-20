@@ -1,0 +1,34 @@
+.font-caveat {
+    font-family: 'Caveat', cursive;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28237,213,162, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+}
+body {
+    background-color: #101423;   
+}
+
+.hero-img-container {
+    background-image: url("../images/background-hero.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.hero-img {
+    border-radius: 200px 200px 0px 0px;
+   
+}
+
+/* Projekter */
+/* Hide projects by default */
+.project-container {
+    display: none;
+}
+
+/* Show projects that match the filter */
+.project-container.show {
+    display: block;
+}
